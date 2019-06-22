@@ -20,7 +20,7 @@ struct ProgressBar : View {
     
     var barHeight: Length = 5
     
-    @Binding var progress: Length
+    var progress: Length
     
     var body: some View {
         ZStack(alignment: .leading) {
@@ -61,7 +61,7 @@ struct ProgressBar_Preview_View : View {
     
     var body: some View {
         VStack {
-            ProgressBar(progress: self.$progress).frame(width: 300)
+            ProgressBar(progress: self.progress).frame(width: 300)
             
             Button(action: { self.progress += 0.1 }) {
                 Text("Add Progress")

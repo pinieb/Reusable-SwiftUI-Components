@@ -22,7 +22,7 @@
 		82A4FE7B22BE89DD00553EA3 /* PlainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE5D22BE810000553EA3 /* PlainButtonStyle.swift */; };
 		82BA472F22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA472E22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift */; };
 		82BA473022BE951D00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA472E22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift */; };
-		82BA473222BE9C4600EF90DD /* OutlineFlatButtonWithHover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA473122BE9C4600EF90DD /* OutlineFlatButtonWithHover.swift */; };
+		82BA473222BE9C4600EF90DD /* OutlinedFlatButtonWithHover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA473122BE9C4600EF90DD /* OutlinedFlatButtonWithHover.swift */; };
 		82BA473722BEA1C500EF90DD /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA473622BEA1C500EF90DD /* ProgressBar.swift */; };
 		82BA473822BEA1C500EF90DD /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA473622BEA1C500EF90DD /* ProgressBar.swift */; };
 /* End PBXBuildFile section */
@@ -46,7 +46,7 @@
 		82A4FE7422BE899500553EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82A4FE7522BE899500553EA3 /* Reusable_Swift_UI_Components_for_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reusable_Swift_UI_Components_for_Mac.entitlements; sourceTree = "<group>"; };
 		82BA472E22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OutlinedFlatButtonStyle .swift"; sourceTree = "<group>"; };
-		82BA473122BE9C4600EF90DD /* OutlineFlatButtonWithHover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineFlatButtonWithHover.swift; sourceTree = "<group>"; };
+		82BA473122BE9C4600EF90DD /* OutlinedFlatButtonWithHover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedFlatButtonWithHover.swift; sourceTree = "<group>"; };
 		82BA473622BEA1C500EF90DD /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,7 +169,7 @@
 		82BA473422BE9C6400EF90DD /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				82BA473122BE9C4600EF90DD /* OutlineFlatButtonWithHover.swift */,
+				82BA473122BE9C4600EF90DD /* OutlinedFlatButtonWithHover.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -300,7 +300,7 @@
 				82A4FE6B22BE899300553EA3 /* ContentView.swift in Sources */,
 				82A4FE7B22BE89DD00553EA3 /* PlainButtonStyle.swift in Sources */,
 				82BA473022BE951D00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */,
-				82BA473222BE9C4600EF90DD /* OutlineFlatButtonWithHover.swift in Sources */,
+				82BA473222BE9C4600EF90DD /* OutlinedFlatButtonWithHover.swift in Sources */,
 				82A4FE6922BE899300553EA3 /* AppDelegate.swift in Sources */,
 				82BA473822BEA1C500EF90DD /* ProgressBar.swift in Sources */,
 			);

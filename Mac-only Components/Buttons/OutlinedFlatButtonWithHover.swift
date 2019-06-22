@@ -1,5 +1,5 @@
 //
-//  OutlineFlatButtonWithHover.swift
+//  OutlinedFlatButtonWithHover.swift
 //  Reusable Swift UI Components for Mac
 //
 //  Created by Pete Biencourt on 6/22/19.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct OutlineFlatButtonWithHover<Label> : View where Label : View {
+struct OutlinedFlatButtonWithHover<Label> : View where Label : View {
     var action: () -> Void
     var label: Label
     
@@ -44,11 +44,11 @@ struct OutlineFlatButtonWithHover<Label> : View where Label : View {
 }
 
 #if DEBUG
-struct OutlineFlatButtonWithHover_Previews : PreviewProvider {
+struct OutlinedFlatButtonWithHover_Previews : PreviewProvider {
     static var previews: some View {
         let appearance = OutlinedFlatButtonStyle.Appearance(backgroundColor: Color.black.opacity(0.2))
         
-        return OutlineFlatButtonWithHover(action: {}, hoverAppearance: appearance) {
+        return OutlinedFlatButtonWithHover(action: {}, hoverAppearance: appearance) {
             Text("Outline flat button with hover")
         }
     }
