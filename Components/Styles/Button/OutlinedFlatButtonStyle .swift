@@ -9,7 +9,7 @@
 import SwiftUI
 
 /// Removes all style from a button
-struct OutlinedFlatButtonStyle: ButtonStyle {
+struct OutlinedFlatButtonStyle : ButtonStyle {
     struct Appearance {
         var borderColor = Color.black
         var borderWidth: Length = 1
@@ -48,7 +48,7 @@ struct OutlinedFlatButtonStyle: ButtonStyle {
     }
 }
 
-extension StaticMember where Base: ButtonStyle {
+extension StaticMember where Base : ButtonStyle {
     static func outlinedFlat(appearance: OutlinedFlatButtonStyle.Appearance = OutlinedFlatButtonStyle.Appearance()) -> OutlinedFlatButtonStyle.Member { return .init(.init(appearance: appearance)) }
 }
 
