@@ -30,7 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		82A4FE4422BE809D00553EA3 /* Reusable Swift UI Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reusable Swift UI Components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A4FE4422BE809D00553EA3 /* Reusable SwiftUI Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reusable SwiftUI Components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A4FE4722BE809D00553EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82A4FE4922BE809D00553EA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		82A4FE4B22BE809D00553EA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		82A4FE5522BE80A000553EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82A4FE5D22BE810000553EA3 /* PlainButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainButtonStyle.swift; sourceTree = "<group>"; };
 		82A4FE6022BE834500553EA3 /* OutlinedFlatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedFlatButton.swift; sourceTree = "<group>"; };
-		82A4FE6622BE899300553EA3 /* Reusable Swift UI Components for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reusable Swift UI Components for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A4FE6622BE899300553EA3 /* Reusable SwiftUI Components for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reusable SwiftUI Components for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A4FE6822BE899300553EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82A4FE6A22BE899300553EA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82A4FE6C22BE899500553EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 		82A4FE4522BE809D00553EA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82A4FE4422BE809D00553EA3 /* Reusable Swift UI Components.app */,
-				82A4FE6622BE899300553EA3 /* Reusable Swift UI Components for Mac.app */,
+				82A4FE4422BE809D00553EA3 /* Reusable SwiftUI Components.app */,
+				82A4FE6622BE899300553EA3 /* Reusable SwiftUI Components for Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,9 +197,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82A4FE4322BE809D00553EA3 /* Reusable Swift UI Components */ = {
+		82A4FE4322BE809D00553EA3 /* Reusable SwiftUI Components */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82A4FE5822BE80A000553EA3 /* Build configuration list for PBXNativeTarget "Reusable Swift UI Components" */;
+			buildConfigurationList = 82A4FE5822BE80A000553EA3 /* Build configuration list for PBXNativeTarget "Reusable SwiftUI Components" */;
 			buildPhases = (
 				82A4FE4022BE809D00553EA3 /* Sources */,
 				82A4FE4122BE809D00553EA3 /* Frameworks */,
@@ -209,14 +209,14 @@
 			);
 			dependencies = (
 			);
-			name = "Reusable Swift UI Components";
+			name = "Reusable SwiftUI Components";
 			productName = "Reusable Swift UI Components";
-			productReference = 82A4FE4422BE809D00553EA3 /* Reusable Swift UI Components.app */;
+			productReference = 82A4FE4422BE809D00553EA3 /* Reusable SwiftUI Components.app */;
 			productType = "com.apple.product-type.application";
 		};
-		82A4FE6522BE899300553EA3 /* Reusable Swift UI Components for Mac */ = {
+		82A4FE6522BE899300553EA3 /* Reusable SwiftUI Components for Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82A4FE7622BE899500553EA3 /* Build configuration list for PBXNativeTarget "Reusable Swift UI Components for Mac" */;
+			buildConfigurationList = 82A4FE7622BE899500553EA3 /* Build configuration list for PBXNativeTarget "Reusable SwiftUI Components for Mac" */;
 			buildPhases = (
 				82A4FE6222BE899300553EA3 /* Sources */,
 				82A4FE6322BE899300553EA3 /* Frameworks */,
@@ -226,9 +226,9 @@
 			);
 			dependencies = (
 			);
-			name = "Reusable Swift UI Components for Mac";
+			name = "Reusable SwiftUI Components for Mac";
 			productName = "Reusable Swift UI Components for Mac";
-			productReference = 82A4FE6622BE899300553EA3 /* Reusable Swift UI Components for Mac.app */;
+			productReference = 82A4FE6622BE899300553EA3 /* Reusable SwiftUI Components for Mac.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 82A4FE3F22BE809D00553EA3 /* Build configuration list for PBXProject "Reusable Swift UI Components" */;
+			buildConfigurationList = 82A4FE3F22BE809D00553EA3 /* Build configuration list for PBXProject "Reusable SwiftUI Components" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,8 +262,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82A4FE4322BE809D00553EA3 /* Reusable Swift UI Components */,
-				82A4FE6522BE899300553EA3 /* Reusable Swift UI Components for Mac */,
+				82A4FE4322BE809D00553EA3 /* Reusable SwiftUI Components */,
+				82A4FE6522BE899300553EA3 /* Reusable SwiftUI Components for Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -547,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82A4FE3F22BE809D00553EA3 /* Build configuration list for PBXProject "Reusable Swift UI Components" */ = {
+		82A4FE3F22BE809D00553EA3 /* Build configuration list for PBXProject "Reusable SwiftUI Components" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82A4FE5622BE80A000553EA3 /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82A4FE5822BE80A000553EA3 /* Build configuration list for PBXNativeTarget "Reusable Swift UI Components" */ = {
+		82A4FE5822BE80A000553EA3 /* Build configuration list for PBXNativeTarget "Reusable SwiftUI Components" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82A4FE5922BE80A000553EA3 /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82A4FE7622BE899500553EA3 /* Build configuration list for PBXNativeTarget "Reusable Swift UI Components for Mac" */ = {
+		82A4FE7622BE899500553EA3 /* Build configuration list for PBXNativeTarget "Reusable SwiftUI Components for Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82A4FE7722BE899500553EA3 /* Debug */,
