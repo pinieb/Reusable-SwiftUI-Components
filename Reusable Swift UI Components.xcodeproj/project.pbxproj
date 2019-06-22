@@ -13,6 +13,20 @@
 		82A4FE4E22BE80A000553EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A4FE4D22BE80A000553EA3 /* Assets.xcassets */; };
 		82A4FE5122BE80A000553EA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A4FE5022BE80A000553EA3 /* Preview Assets.xcassets */; };
 		82A4FE5422BE80A000553EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A4FE5222BE80A000553EA3 /* LaunchScreen.storyboard */; };
+		82A4FE5E22BE810000553EA3 /* PlainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE5D22BE810000553EA3 /* PlainButtonStyle.swift */; };
+		82A4FE6122BE834500553EA3 /* OutlinedFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE6022BE834500553EA3 /* OutlinedFlatButton.swift */; };
+		82A4FE6922BE899300553EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE6822BE899300553EA3 /* AppDelegate.swift */; };
+		82A4FE6B22BE899300553EA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE6A22BE899300553EA3 /* ContentView.swift */; };
+		82A4FE6D22BE899500553EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A4FE6C22BE899500553EA3 /* Assets.xcassets */; };
+		82A4FE7022BE899500553EA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A4FE6F22BE899500553EA3 /* Preview Assets.xcassets */; };
+		82A4FE7322BE899500553EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A4FE7122BE899500553EA3 /* Main.storyboard */; };
+		82A4FE7A22BE89D700553EA3 /* OutlinedFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE6022BE834500553EA3 /* OutlinedFlatButton.swift */; };
+		82A4FE7B22BE89DD00553EA3 /* PlainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE5D22BE810000553EA3 /* PlainButtonStyle.swift */; };
+		82BA472F22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA472E22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift */; };
+		82BA473022BE951D00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA472E22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift */; };
+		82BA473222BE9C4600EF90DD /* OutlineFlatButtonWithHover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA473122BE9C4600EF90DD /* OutlineFlatButtonWithHover.swift */; };
+		82BA473722BEA1C500EF90DD /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA473622BEA1C500EF90DD /* ProgressBar.swift */; };
+		82BA473822BEA1C500EF90DD /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA473622BEA1C500EF90DD /* ProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +38,30 @@
 		82A4FE5022BE80A000553EA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82A4FE5322BE80A000553EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82A4FE5522BE80A000553EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A4FE5D22BE810000553EA3 /* PlainButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainButtonStyle.swift; sourceTree = "<group>"; };
+		82A4FE6022BE834500553EA3 /* OutlinedFlatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedFlatButton.swift; sourceTree = "<group>"; };
+		82A4FE6622BE899300553EA3 /* Reusable Swift UI Components for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reusable Swift UI Components for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A4FE6822BE899300553EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82A4FE6A22BE899300553EA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82A4FE6C22BE899500553EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82A4FE6F22BE899500553EA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82A4FE7222BE899500553EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82A4FE7422BE899500553EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A4FE7522BE899500553EA3 /* Reusable_Swift_UI_Components_for_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reusable_Swift_UI_Components_for_Mac.entitlements; sourceTree = "<group>"; };
+		82BA472E22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OutlinedFlatButtonStyle .swift"; sourceTree = "<group>"; };
+		82BA473122BE9C4600EF90DD /* OutlineFlatButtonWithHover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineFlatButtonWithHover.swift; sourceTree = "<group>"; };
+		82BA473622BEA1C500EF90DD /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		82A4FE4122BE809D00553EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A4FE6322BE899300553EA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +74,10 @@
 		82A4FE3B22BE809D00553EA3 = {
 			isa = PBXGroup;
 			children = (
+				82BA473322BE9C5100EF90DD /* Mac-only Components */,
+				82A4FE7922BE89B800553EA3 /* Components */,
 				82A4FE4622BE809D00553EA3 /* Reusable Swift UI Components */,
+				82A4FE6722BE899300553EA3 /* Reusable Swift UI Components for Mac */,
 				82A4FE4522BE809D00553EA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				82A4FE4422BE809D00553EA3 /* Reusable Swift UI Components.app */,
+				82A4FE6622BE899300553EA3 /* Reusable Swift UI Components for Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +113,87 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		82A4FE5B22BE80BB00553EA3 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				82A4FE5C22BE80C500553EA3 /* Button */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		82A4FE5C22BE80C500553EA3 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				82A4FE5D22BE810000553EA3 /* PlainButtonStyle.swift */,
+				82BA472E22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		82A4FE5F22BE830900553EA3 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				82A4FE6022BE834500553EA3 /* OutlinedFlatButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		82A4FE6722BE899300553EA3 /* Reusable Swift UI Components for Mac */ = {
+			isa = PBXGroup;
+			children = (
+				82A4FE6822BE899300553EA3 /* AppDelegate.swift */,
+				82A4FE6A22BE899300553EA3 /* ContentView.swift */,
+				82A4FE6C22BE899500553EA3 /* Assets.xcassets */,
+				82A4FE7122BE899500553EA3 /* Main.storyboard */,
+				82A4FE7422BE899500553EA3 /* Info.plist */,
+				82A4FE7522BE899500553EA3 /* Reusable_Swift_UI_Components_for_Mac.entitlements */,
+				82A4FE6E22BE899500553EA3 /* Preview Content */,
+			);
+			path = "Reusable Swift UI Components for Mac";
+			sourceTree = "<group>";
+		};
+		82A4FE6E22BE899500553EA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82A4FE6F22BE899500553EA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82A4FE7922BE89B800553EA3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				82A4FE5F22BE830900553EA3 /* Buttons */,
+				82BA473522BEA13900EF90DD /* Progress Indicators */,
+				82A4FE5B22BE80BB00553EA3 /* Styles */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		82BA473322BE9C5100EF90DD /* Mac-only Components */ = {
+			isa = PBXGroup;
+			children = (
+				82BA473422BE9C6400EF90DD /* Buttons */,
+			);
+			path = "Mac-only Components";
+			sourceTree = "<group>";
+		};
+		82BA473422BE9C6400EF90DD /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				82BA473122BE9C4600EF90DD /* OutlineFlatButtonWithHover.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		82BA473522BEA13900EF90DD /* Progress Indicators */ = {
+			isa = PBXGroup;
+			children = (
+				82BA473622BEA1C500EF90DD /* ProgressBar.swift */,
+			);
+			path = "Progress Indicators";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,6 +214,23 @@
 			productReference = 82A4FE4422BE809D00553EA3 /* Reusable Swift UI Components.app */;
 			productType = "com.apple.product-type.application";
 		};
+		82A4FE6522BE899300553EA3 /* Reusable Swift UI Components for Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A4FE7622BE899500553EA3 /* Build configuration list for PBXNativeTarget "Reusable Swift UI Components for Mac" */;
+			buildPhases = (
+				82A4FE6222BE899300553EA3 /* Sources */,
+				82A4FE6322BE899300553EA3 /* Frameworks */,
+				82A4FE6422BE899300553EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reusable Swift UI Components for Mac";
+			productName = "Reusable Swift UI Components for Mac";
+			productReference = 82A4FE6622BE899300553EA3 /* Reusable Swift UI Components for Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -106,6 +242,9 @@
 				ORGANIZATIONNAME = piebie;
 				TargetAttributes = {
 					82A4FE4322BE809D00553EA3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					82A4FE6522BE899300553EA3 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
@@ -124,6 +263,7 @@
 			projectRoot = "";
 			targets = (
 				82A4FE4322BE809D00553EA3 /* Reusable Swift UI Components */,
+				82A4FE6522BE899300553EA3 /* Reusable Swift UI Components for Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +279,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82A4FE6422BE899300553EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A4FE7322BE899500553EA3 /* Main.storyboard in Resources */,
+				82A4FE7022BE899500553EA3 /* Preview Assets.xcassets in Resources */,
+				82A4FE6D22BE899500553EA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -147,8 +297,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				82A4FE4822BE809D00553EA3 /* AppDelegate.swift in Sources */,
+				82BA472F22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */,
+				82A4FE6122BE834500553EA3 /* OutlinedFlatButton.swift in Sources */,
 				82A4FE4A22BE809D00553EA3 /* SceneDelegate.swift in Sources */,
+				82A4FE5E22BE810000553EA3 /* PlainButtonStyle.swift in Sources */,
 				82A4FE4C22BE809D00553EA3 /* ContentView.swift in Sources */,
+				82BA473722BEA1C500EF90DD /* ProgressBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A4FE6222BE899300553EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A4FE6B22BE899300553EA3 /* ContentView.swift in Sources */,
+				82A4FE7A22BE89D700553EA3 /* OutlinedFlatButton.swift in Sources */,
+				82A4FE7B22BE89DD00553EA3 /* PlainButtonStyle.swift in Sources */,
+				82BA473022BE951D00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */,
+				82BA473222BE9C4600EF90DD /* OutlineFlatButtonWithHover.swift in Sources */,
+				82A4FE6922BE899300553EA3 /* AppDelegate.swift in Sources */,
+				82BA473822BEA1C500EF90DD /* ProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +329,14 @@
 				82A4FE5322BE80A000553EA3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		82A4FE7122BE899500553EA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A4FE7222BE899500553EA3 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +496,54 @@
 			};
 			name = Release;
 		};
+		82A4FE7722BE899500553EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Reusable Swift UI Components for Mac/Reusable_Swift_UI_Components_for_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Reusable Swift UI Components for Mac\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = 9A3742UGVG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Reusable Swift UI Components for Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piebie.Reusable-Swift-UI-Components-for-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		82A4FE7822BE899500553EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Reusable Swift UI Components for Mac/Reusable_Swift_UI_Components_for_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Reusable Swift UI Components for Mac\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = 9A3742UGVG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Reusable Swift UI Components for Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piebie.Reusable-Swift-UI-Components-for-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +561,15 @@
 			buildConfigurations = (
 				82A4FE5922BE80A000553EA3 /* Debug */,
 				82A4FE5A22BE80A000553EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A4FE7622BE899500553EA3 /* Build configuration list for PBXNativeTarget "Reusable Swift UI Components for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A4FE7722BE899500553EA3 /* Debug */,
+				82A4FE7822BE899500553EA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
