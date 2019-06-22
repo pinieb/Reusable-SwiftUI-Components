@@ -49,7 +49,7 @@ struct OutlineFlatButtonWithHover_Previews : PreviewProvider {
         let appearance = OutlinedFlatButtonStyle.Appearance(backgroundColor: Color.black.opacity(0.2))
         
         return OutlineFlatButtonWithHover(action: {}, hoverAppearance: appearance) {
-            Text("aksd")
+            Text("Outline flat button with hover")
         }
     }
 }

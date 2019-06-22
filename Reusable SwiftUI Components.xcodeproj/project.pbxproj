@@ -14,13 +14,11 @@
 		82A4FE5122BE80A000553EA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A4FE5022BE80A000553EA3 /* Preview Assets.xcassets */; };
 		82A4FE5422BE80A000553EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A4FE5222BE80A000553EA3 /* LaunchScreen.storyboard */; };
 		82A4FE5E22BE810000553EA3 /* PlainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE5D22BE810000553EA3 /* PlainButtonStyle.swift */; };
-		82A4FE6122BE834500553EA3 /* OutlinedFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE6022BE834500553EA3 /* OutlinedFlatButton.swift */; };
 		82A4FE6922BE899300553EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE6822BE899300553EA3 /* AppDelegate.swift */; };
 		82A4FE6B22BE899300553EA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE6A22BE899300553EA3 /* ContentView.swift */; };
 		82A4FE6D22BE899500553EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A4FE6C22BE899500553EA3 /* Assets.xcassets */; };
 		82A4FE7022BE899500553EA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A4FE6F22BE899500553EA3 /* Preview Assets.xcassets */; };
 		82A4FE7322BE899500553EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A4FE7122BE899500553EA3 /* Main.storyboard */; };
-		82A4FE7A22BE89D700553EA3 /* OutlinedFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE6022BE834500553EA3 /* OutlinedFlatButton.swift */; };
 		82A4FE7B22BE89DD00553EA3 /* PlainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE5D22BE810000553EA3 /* PlainButtonStyle.swift */; };
 		82BA472F22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA472E22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift */; };
 		82BA473022BE951D00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA472E22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift */; };
@@ -39,7 +37,6 @@
 		82A4FE5322BE80A000553EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82A4FE5522BE80A000553EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82A4FE5D22BE810000553EA3 /* PlainButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainButtonStyle.swift; sourceTree = "<group>"; };
-		82A4FE6022BE834500553EA3 /* OutlinedFlatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedFlatButton.swift; sourceTree = "<group>"; };
 		82A4FE6622BE899300553EA3 /* Reusable SwiftUI Components for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reusable SwiftUI Components for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A4FE6822BE899300553EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82A4FE6A22BE899300553EA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,14 +127,6 @@
 			path = Button;
 			sourceTree = "<group>";
 		};
-		82A4FE5F22BE830900553EA3 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				82A4FE6022BE834500553EA3 /* OutlinedFlatButton.swift */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
 		82A4FE6722BE899300553EA3 /* Reusable Swift UI Components for Mac */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,7 +152,6 @@
 		82A4FE7922BE89B800553EA3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				82A4FE5F22BE830900553EA3 /* Buttons */,
 				82BA473522BEA13900EF90DD /* Progress Indicators */,
 				82A4FE5B22BE80BB00553EA3 /* Styles */,
 			);
@@ -298,7 +286,6 @@
 			files = (
 				82A4FE4822BE809D00553EA3 /* AppDelegate.swift in Sources */,
 				82BA472F22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */,
-				82A4FE6122BE834500553EA3 /* OutlinedFlatButton.swift in Sources */,
 				82A4FE4A22BE809D00553EA3 /* SceneDelegate.swift in Sources */,
 				82A4FE5E22BE810000553EA3 /* PlainButtonStyle.swift in Sources */,
 				82A4FE4C22BE809D00553EA3 /* ContentView.swift in Sources */,
@@ -311,7 +298,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				82A4FE6B22BE899300553EA3 /* ContentView.swift in Sources */,
-				82A4FE7A22BE89D700553EA3 /* OutlinedFlatButton.swift in Sources */,
 				82A4FE7B22BE89DD00553EA3 /* PlainButtonStyle.swift in Sources */,
 				82BA473022BE951D00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */,
 				82BA473222BE9C4600EF90DD /* OutlineFlatButtonWithHover.swift in Sources */,

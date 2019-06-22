@@ -72,7 +72,11 @@ struct ProgressBar_Preview_View : View {
 
 struct ProgressBar_Previews : PreviewProvider {
     static var previews: some View {
+        GeometryReader { _ in
+        VStack {
         ProgressBar_Preview_View()
+            }.frame(maxWidth: .infinity, maxHeight: .infinity).background(Color.black)
+        }
     }
 }
 #endif
