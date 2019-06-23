@@ -10,17 +10,17 @@ import SwiftUI
 
 struct ProgressBar : View {
     
+    var progress: Length
+    
     var cornerRadius: Length = 4
     
-    var panColor = Color.white.opacity(0.5)
-    var panBorderColor = Color.white
+    var panColor = Color.gray.opacity(0.5)
+    var panBorderColor = Color.gray
     var panBorderWidth: Length = 1
     
-    var fillColor = Color.white
+    var fillColor = Color.blue
     
     var barHeight: Length = 5
-    
-    var progress: Length
     
     var body: some View {
         ZStack(alignment: .leading) {
@@ -32,9 +32,11 @@ struct ProgressBar : View {
 
         
         Rectangle()
+            .cornerRadius(cornerRadius, antialiased: true)
+            .padding(panBorderWidth)
             .frame(height: barHeight)
             .foregroundColor(fillColor)
-            .cornerRadius(cornerRadius, antialiased: true)
+            
             .relativeWidth(getSafeProgress(progress))
             .animation(.basic(curve: .easeInOut))
             
@@ -57,11 +59,17 @@ struct ProgressBar : View {
 #if DEBUG
 
 struct ProgressBar_Preview_View : View {
-    @State var progress: Length = 0
+    @State var progress: Length = 0.5
     
     var body: some View {
-        VStack {
+        VStack(spacing: 50) {
             ProgressBar(progress: self.progress).frame(width: 300)
+            
+            ProgressBar(progress: self.progress, cornerRadius: 0, barHeight: 10)
+                    .frame(width: 300)
+            
+            ProgressBar(progress: self.progress,  cornerRadius: 10, panColor: .green, panBorderColor: .purple, panBorderWidth: 3, fillColor: Color.white.opacity(0.9), barHeight: 20)
+                .frame(width: 300)
             
             Button(action: { self.progress += 0.1 }) {
                 Text("Add Progress")
@@ -75,7 +83,7 @@ struct ProgressBar_Previews : PreviewProvider {
         GeometryReader { _ in
         VStack {
         ProgressBar_Preview_View()
-            }.frame(maxWidth: .infinity, maxHeight: .infinity).background(Color.black)
+            }.frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }
 }
