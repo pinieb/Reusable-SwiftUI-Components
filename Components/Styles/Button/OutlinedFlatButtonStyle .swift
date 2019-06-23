@@ -55,7 +55,7 @@ extension StaticMember where Base : ButtonStyle {
 #if DEBUG
 struct OutlinedFlatButtonStyle_Previews : PreviewProvider {
     static var previews: some View {
-        VStack {
+        VStack(spacing: 20) {
             Button(action: {}) {
                 Text("Outlined flat button style")
             }.buttonStyle(.outlinedFlat())

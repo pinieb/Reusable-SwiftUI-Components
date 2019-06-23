@@ -22,9 +22,16 @@ extension StaticMember where Base: ButtonStyle {
 #if DEBUG
 struct PlainButtonStyle_Previews : PreviewProvider {
     static var previews: some View {
-        Button(action: {}) {
-            Text("Plain Button")
-        }.buttonStyle(.plain)
+        VStack(spacing: 10) {
+            Button(action: {}) {
+                Text("System Button")
+                }
+            
+            
+            Button(action: {}) {
+                Text("Plain Button")
+            }.buttonStyle(.plain)
+            }.frame(width: 300, height: 300, alignment: .center)
     }
 }
 #endif
