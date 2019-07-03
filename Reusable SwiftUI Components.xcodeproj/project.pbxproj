@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82833F6022CAED490071089F /* FancySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82833F5F22CAED490071089F /* FancySlider.swift */; };
+		82833F6122CAED490071089F /* FancySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82833F5F22CAED490071089F /* FancySlider.swift */; };
 		82A4FE4822BE809D00553EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE4722BE809D00553EA3 /* AppDelegate.swift */; };
 		82A4FE4A22BE809D00553EA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE4922BE809D00553EA3 /* SceneDelegate.swift */; };
 		82A4FE4C22BE809D00553EA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4FE4B22BE809D00553EA3 /* ContentView.swift */; };
@@ -28,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82833F5F22CAED490071089F /* FancySlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancySlider.swift; sourceTree = "<group>"; };
 		82A4FE4422BE809D00553EA3 /* Reusable SwiftUI Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reusable SwiftUI Components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A4FE4722BE809D00553EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82A4FE4922BE809D00553EA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +157,7 @@
 			children = (
 				82BA473522BEA13900EF90DD /* Progress Indicators */,
 				82A4FE5B22BE80BB00553EA3 /* Styles */,
+				82833F5F22CAED490071089F /* FancySlider.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -284,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82833F6022CAED490071089F /* FancySlider.swift in Sources */,
 				82A4FE4822BE809D00553EA3 /* AppDelegate.swift in Sources */,
 				82BA472F22BE905B00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */,
 				82A4FE4A22BE809D00553EA3 /* SceneDelegate.swift in Sources */,
@@ -297,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82833F6122CAED490071089F /* FancySlider.swift in Sources */,
 				82A4FE6B22BE899300553EA3 /* ContentView.swift in Sources */,
 				82A4FE7B22BE89DD00553EA3 /* PlainButtonStyle.swift in Sources */,
 				82BA473022BE951D00EF90DD /* OutlinedFlatButtonStyle .swift in Sources */,

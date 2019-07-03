@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct ContentView : View {
+    
+    @State var value = Length(1)
+    
     var body: some View {
         VStack {
         Text("Hello World")
@@ -16,6 +19,8 @@ struct ContentView : View {
         Button(action: {}) {
             Text("Outlined flat")
         }.buttonStyle(.outlinedFlat())
+            
+            FancySlider().frame(width: 400)
         }
     }
 }
